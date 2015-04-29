@@ -5,5 +5,5 @@ docker run -d -t \
   --name spark \
   -p 8080:8080 \
   -p 7077:7077 \
-  -v /apps/spark-data:/spark-data \
+  -v /docker-shares:/docker-shares \
   matteoredaelli/docker-spark-rpi
